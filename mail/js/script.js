@@ -14,8 +14,8 @@ function(){
     }
 
     if (trovato == true) {
-      document.getElementById('risposta').innerHTML = "Puoi accedere all'area privata";
+      document.getElementById('risposta').innerHTML = "Puoi accedere all'area privata! 👍";
     } else {
-      document.getElementById('risposta').innerHTML = "Devi registrarti per accedere";
+      document.getElementById('risposta').innerHTML = "Devi registrarti per accedere! 😈";
     }
  });

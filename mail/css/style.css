@@ -1,0 +1,43 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #212121;
+  color: #dfdfdd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+body * {
+  margin: 10px;
+}
+
+body label {
+  font-size: 40px;
+}
+
+input {
+  font-size: 30px;
+  width: 40%;
+}
+
+button {
+  font-size: 20px;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#risposta {
+  color: #d42b63;
+  text-decoration: underline;
+}
